@@ -1,0 +1,90 @@
+.root {
+    background-color: white;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    min-width: 700px;
+    max-height: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border:2px solid #2E4272;
+    border-radius: 8%;
+    text-align: center;
+
+}
+
+.form-container{
+    margin: 0 auto;
+    color: #2E4272;
+    font-size: 30px;
+    font-family: Sabon;
+}
+
+.form{
+    width: 97%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form-extra{
+    width: 97%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom:2px solid #2E4272;
+}
+
+.text-input{
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+
+.books {
+    overflow: auto;
+    max-height: 600px;
+    width: auto;
+}
+
+.button{
+    -webkit-appearance: none;
+    border-radius: 15%;
+    box-shadow: none;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 90px;
+    background: white;
+    border: 2px solid #2E4272;
+}
+
+.books::-webkit-scrollbar {
+    display: block;
+    width: 15px;
+}
+.books::-webkit-scrollbar-track {
+    background: transparent;
+    cursor: pointer;
+}
+    
+.books::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 128, 0, .6);
+    border-right: none;
+    border-left: none;
+    
+}
+
+
+
+.books::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 90px;
+}
+
+.books::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 30px;
+}
